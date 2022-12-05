@@ -1,12 +1,6 @@
 # amaysim-playwright
 Test Automation Sample for Amaysim
 
-to run:
-npx playwright test
-
-to open test report
-npx playwright show-report
-
 ### Requirements
 
 - Node Version Manager
@@ -111,13 +105,26 @@ https://playwright.dev/docs/intro
 
 Checkout this repository to your local folder
 ```cmd
-git clone 
+git clone https://github.com/jmagaru/amaysim-playwright.git
+```
+
+Go to source directory and install necessary packages
+```cmd
+cd amaysim-playwright
+npm install
+```
+Now run the TEST
+```cmd
+npx playwright test
+```
+
+After the test done, you can now open the test report
+```cmd
+npx playwright show-report
 ```
 ### Final Thoughts
 
-- To get the list of available keyword implementation please checkout the docs folder of this [Git repository](https://github.com/jmagaru/cuebot-web)
 - You can use [VSCode as your IDE](https://code.visualstudio.com/)
 
-###### Just follow the given sample feature format, and you're done!!
 
-###### Happy Automating!!!
+###### Happy Hacking!!!
