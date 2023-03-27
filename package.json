@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.28.1"
+    "@playwright/test": "^1.28.1",
+    "ua-parser-js": "^1.0.34"
   }
 }
